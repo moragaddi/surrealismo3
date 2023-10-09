@@ -1,0 +1,132 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+     
+     <title>doc</title>
+     <link rel="stylesheet" href="css/estilos.css">
+ </head>
+<header>
+    <input type="checkbox" name="" id="chk1">
+        <div class="logo"><a href="index.html"><h1>S</h1></a></div>
+        <div class="search-box">
+            <form action="">
+                <input type="text" name="search" id="srch" placeholder="Search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <ul>
+            <li><a href=vanguardia.html>Vanguardia</a></li>
+            <li><a href=artistas.html>Artistas</a></li>
+            <li><a href=galeria.html>Galeria</a></li>
+            <li><a href=contacto.html>Contacto</a></li>
+            <li><a href="login.html"><i class="fa-solid fa-user"></i></a>
+
+            </li>
+        </ul>
+        <div class="menu">
+            <label for="chk1">
+                <i class="fa fa-bars"></i>
+            </label>
+        </div>
+ 
+</header>
+        <h4>OBRAS MÁS DESTACADAS</h4>
+
+    <div class="historia">
+        <h3>UN POCO DE HISTORIA</h3>
+        <img src="images/1.jpg">
+        <h5>El surrealismo fue un movimiento artístico y literario que surgió en la década de 1920, principalmente en Europa, como una <strong>reacción contra las restricciones y convenciones de la sociedad y el arte de la época. 
+        </strong> Este movimiento buscaba explorar el mundo del <strong>subconsciente</strong>, los <strong>sueños</strong> y la <strong>imaginación</strong> a través de obras que desafiaban la lógica y la realidad convencional. Aquí tienes un resumen de la historia del surrealismo
+
+      <h5>La filosofía del surrealismo se basa en la idea de <strong>explorar y liberar las profundidades del subconsciente y la mente humana </strong>para revelar verdades ocultas, emociones y deseos a través de la creatividad artística y literaria. Aunque no existe una filosofía única y cohesiva que abarque todo el movimiento surrealista debido a las diferencias entre sus miembros, se pueden identificar varios conceptos y principios clave que caracterizan la filosofía subyacente del surrealismo. El movimiento surrealista también tuvo un impacto en la literatura, con autores como André Breton, Louis Aragon y Paul Éluard escribiendo poesía surrealista que exploraba los rincones más oscuros de la mente humana.
+
+    <h5>La historia de la vanguardia surrealista está estrechamente relacionada con la figura del poeta y escritor André Breton, quien en 1924 publicó el "Manifiesto Surrealista", un texto fundamental que establecía los principios y objetivos del movimiento. Breton y otros artistas que compartían sus ideas creían en la liberación de la mente humana de las restricciones de la razón y la lógica, abrazando el poder de lo irracional y lo automático. Querían explorar el mundo de los sueños y el subconsciente para revelar verdades ocultas sobre la psicología humana y la sociedad.
+
+    <h5>El surrealismo abarcó diversas formas artísticas, incluyendo la pintura, la poesía, la fotografía, el cine y el teatro. Algunos de los artistas más influyentes asociados con el movimiento surrealista incluyen a Salvador Dalí, René Magritte, Max Ernst, Joan Miró y André Masson. Cada uno de estos artistas tenía su estilo único y su enfoque particular, pero todos compartían una fascinación por lo absurdo, lo ilógico y lo desconcertante en sus obras.
+    La Segunda Guerra Mundial y sus consecuencias políticas llevaron a una disolución gradual del movimiento surrealista en la década de 1940. Sin embargo, su legado perdura en la cultura contemporánea, influyendo en movimientos artísticos posteriores como el pop art y el posmodernismo. El surrealismo sigue siendo una parte importante de la historia del arte y la literatura, recordándonos la capacidad de la creatividad humana para explorar lo desconocido y desafiar las normas establecidas.<strong>
+    <h5>El contexto histórico y cultural: El surgimiento del surrealismo se dio en un período de agitación cultural </strong>después de la Primera Guerra Mundial. La sociedad europea estaba lidiando con las consecuencias de la guerra, la revolución rusa y el auge de las teorías psicoanalíticas de Sigmund Freud. Estos eventos influyeron en la búsqueda de nuevas formas de expresión artística y en la exploración de la mente humana.<strong>
+    </div>
+    </main>
+     
+     
+
+<div class="slider-">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="images/1.JPG" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/5.JPG" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/8.JPG" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/26.JPG" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/6.JPG" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/3.JPG" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/2.JPG" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="images/7.JPG" alt="">
+            </div>
+            
+        </div>
+    </div>
+      
+
+    <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+function plusDivs(n) {
+showDivs(slideIndex += n);
+}
+function showDivs(n) {
+var i;
+// acá define qué elemento entra en el slider
+var x = document.getElementsByClassName("mySlides");
+if (n > x.length) {slideIndex = 1}
+if (n < 1) {slideIndex = x.length} ;
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+}
+x[slideIndex-1].style.display = "block";
+}
+ 
+carousel();
+ 
+function carousel() {
+var i;
+var x = document.getElementsByClassName("mySlides");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+}
+slideIndex++;
+if (slideIndex > x.length) {slideIndex = 1}
+x[slideIndex-1].style.display = "block";
+setTimeout(carousel, 3000); // Cambia la imagen cada 3 segundos
+}
+</script>
+ <footer>
+
+            <p class="footer">"Vanguardia Surrealista" por Mora Gaddi. Todos los derechos reservados © 2023.</p>
+</footer>
+
+<script src="https://kit.fontawesome.com/06d0e98269.js" crossorigin="anonymous"></script>
+</html>
+
+ 
+</header>
